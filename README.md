@@ -8,7 +8,7 @@ A collection of Tensorflow implementation for several milestone neural dialogue 
  - The **Knowledge-Guided Conditional Variational Model (KGCVAE)** presented in [**Learning Discourse-level Diversity for Neural Dialog Models using Conditional Variational Autoencoders**](https://arxiv.org/pdf/1703.10960.pdf).
  
  
- ## Usage: 
+ ### Usage: 
  
 First download GoogleNews word2vec embeddings from https://code.google.com/archive/p/word2vec/downloads and put it in the root directoy. The default setting use 300 dimension.
  
@@ -28,14 +28,14 @@ where <model_dir> is in the format of **"run_<model_name>_<dataset_name>_others"
 It provides commonly used evaluation tools for dialog generation, including the **per-word perplexity, distinct-1, distinct-2, bleu, embedding-based metrics (average & greedy & extrema)**.
 
 
-## Datasets
+### Datasets
 
 Two datasets are provided, respectively [**dailydialog**](https://arxiv.org/abs/1710.03957) and [**SwitchBoard**](http://compprag.christopherpotts.net/swda.html). Both datasets contains dialogue instances, along with rich meta information. Please refer to [daily_readme.txt](https://github.com/zheng-yanan/variational-neural-dialog-models/blob/master/data/dailydialog/ReadMe.txt) and [swda_readme.txt](https://github.com/zheng-yanan/variational-neural-dialog-models/blob/master/data/switchboard/ReadMe.txt) for details.
 
-## Prerequisites
+### Prerequisites
  - TensorFlow 1.4.0
  - Python 2.7
 
-## Acknowledgements
+### Acknowledgements
 
 Several code snippets are reused from [**NeuralDialog-CVAE**](https://github.com/snakeztc/NeuralDialog-CVAE). We acknowledge all the authors who made their code public, which tremendously accelerates our project progress.
