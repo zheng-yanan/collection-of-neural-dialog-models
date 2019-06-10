@@ -38,4 +38,4 @@ Two datasets are provided, respectively [**dailydialog**](https://arxiv.org/abs/
 
 ### Acknowledgements
 
-Several code snippets are reused from [**NeuralDialog-CVAE**](https://github.com/snakeztc/NeuralDialog-CVAE). We acknowledge all the authors who made their code public, which tremendously accelerates our project progress.
+Several code snippets are reused from [**NeuralDialog-CVAE**](https://github.com/snakeztc/NeuralDialog-CVAE). I appreciate all the authors who made their code public, which greatly facilitates this project. This repository would be continuously updated.
