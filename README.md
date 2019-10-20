@@ -1,4 +1,4 @@
-## variational-neural-dialog-models
+## collections-of-neural-dialog-models
 
 A collection of Tensorflow implementation for several milestone neural dialogue generation works. It includes: 
 
@@ -15,7 +15,7 @@ First download GoogleNews word2vec embeddings from https://code.google.com/archi
  To train a model: 
  
 	python run_models.py --model <model_name> -- dataset <dataset_name>
-where <model_name> can be **seq2seq, hred, vhred or kgcvae**, and <dataset_name> can be **dailydialog or switchboard**. It will save models to ./save/model_dir.
+where <model_name> can be **seq2seq, hred, vhred** or **kgcvae**, and <dataset_name> can be **dailydialog or switchboard**. It will save models to ./save/model_dir.
 
  To test an existing model: 
  
