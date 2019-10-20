@@ -1,4 +1,4 @@
-## collections-of-neural-dialog-models
+## Collections of Neural Dialogue Models
 
 A collection of Tensorflow implementation for several milestone neural dialogue generation works. It includes: 
 
@@ -25,7 +25,7 @@ where <model_dir> is in the format of **"run_<model_name>_<dataset_name>_others"
  To evaluate an existing model using automatic metrics: 
  
 	python eval_utils.py --input_file <model_dir>/test.txt
-It provides commonly used evaluation tools for dialog generation, including the **per-word perplexity, distinct-1, distinct-2, bleu, embedding-based metrics (average & greedy & extrema)**.
+It provides commonly used evaluation tools for dialog generation, including the **per-word perplexity, distinct-1, distinct-2, bleu-N, embedding-based metrics (average & greedy & extrema)**.
 
 
 ### Datasets
