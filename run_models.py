@@ -63,7 +63,9 @@ def main():
 		api = SWDADialogCorpus(
 			"data/switchboard/full_swda_clean_42da_sentiment_dialog_corpus.p", 
 			word2vec=FLAGS.word2vec_path, word2vec_dim=config.embed_size)
-
+	else:
+		raise ValueError("dataset should be specified among [dailydialog or switchboard]")
+		
 	dial_corpus = api.get_dialog_corpus()
 	meta_corpus = api.get_meta_corpus()
 
