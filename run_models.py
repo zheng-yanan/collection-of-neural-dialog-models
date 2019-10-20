@@ -77,7 +77,9 @@ def main():
 	elif FLAGS.dataset == "switchboard":
 		train_feed = SWDADataLoader("Train", train_dial, train_meta, config)
 		valid_feed = SWDADataLoader("Valid", valid_dial, valid_meta, config)
-		test_feed = SWDADataLoader("Test", test_dial, test_meta, config)		
+		test_feed = SWDADataLoader("Test", test_dial, test_meta, config)
+	else:
+		raise ValueError("dataset should be specified among [dailydialog or switchboard]")
 
 
 	if FLAGS.forward_only or FLAGS.resume:
