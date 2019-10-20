@@ -1,5 +1,7 @@
 ## Collections of Neural Dialogue Models
 
+[to be continued]
+
 A collection of Tensorflow implementation for several milestone neural dialogue generation works. It includes: 
 
  - The **Seq2Seq Model (SEQ2SEQ)** proposed in [**Sequence to Sequence Learning with Neural Networks**](https://papers.nips.cc/paper/5346-sequence-to-sequence-learning-with-neural-networks.pdf).
